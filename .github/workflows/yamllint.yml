@@ -24,4 +24,4 @@ jobs:
         with:
           fetch-depth: 0
       - name: yamllint
-        uses: ibiqlik/actions-yamllint@v3
+        uses: ibiqlik/action-yamllint@v3
