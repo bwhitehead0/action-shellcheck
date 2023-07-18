@@ -1,6 +1,6 @@
-name: "ShellCheck"
+name: "ShellCheck multiarch"
 author: "bwhitehead0 <whitehead.brandon@gmail.com>"
-description: "GitHub action for ShellCheck with ARM64 support."
+description: "GitHub action for ShellCheck with ARM64 Linux support."
 inputs:
   additional_files:
     description: "A space separated list of additional filename to check"
