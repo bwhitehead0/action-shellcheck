@@ -1,0 +1,8 @@
+stages:
+  - linting
+
+yamllint:
+  stage: linting
+  image: registry.gitlab.com/pipeline-components/yamllint:latest
+  script:
+    - yamllint .
