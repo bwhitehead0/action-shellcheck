@@ -1,0 +1,38 @@
+# Authors
+
+[ludeeus](https://github.com/ludeeus), the original author.
+
+Contributors on [ludeeus/actions-shellcheck](https://github.com/ludeeus/action-shellcheck) and fork:
+
+[Alexey Alekhin](mailto:alexey.alekhin@tapad.com)
+[Alexey Alekhin](mailto:laughedelic@gmail.com)
+[Arkadiusz Bokowy](mailto:arkadiusz.bokowy@gmail.com)
+[Benoit](mailto:benoit-g@users.noreply.github.com)
+[bi1yeu](mailto:matt@matthewbilyeu.com)
+[Boris Bera](mailto:dotboris@users.noreply.github.com)
+[Brandon W Maister](mailto:quodlibetor@gmail.com)
+[bwhitehead0](mailto:whitehead.brandon@gmail.com)
+[bwhitehead](mailto:whitehead.brandon@gmail.com)
+[cramte](mailto:42623182+cramte@users.noreply.github.com)
+[Daniel](mailto:33197631+dadav@users.noreply.github.com)
+[Gareth Healy](mailto:garethahealy@gmail.com)
+[Ilir Bekteshi](mailto:Ilir.Bekteshi@qlik.com)
+[Joakim Sørensen](mailto:hi@ludeeus.dev)
+[Joakim Sørensen](mailto:joasoe@gmail.com)
+[Joakim Sørensen](mailto:ludeeus@gmail.com)
+[Josh Soref](mailto:jsoref@users.noreply.github.com)
+[Justin Hammond](mailto:39606064+Justintime50@users.noreply.github.com)
+[Linus Gasser](mailto:linus.gasser@epfl.ch)
+[ludeeus](mailto:joasoe@gmail.com)
+[ludeeus](mailto:ludeeus@ludeeus.dev)
+[Martin Kealey](mailto:from-github@kurahaupo.gen.nz)
+[Matthew Boston](mailto:matthew@matthewboston.com)
+[Milan Vit](mailto:milanvit@milanvit.net)
+[Oscar Tin Lai](mailto:oscarlai420@gmail.com)
+[Phred Lane](mailto:fearphage@gmail.com)
+[pvogt09](mailto:50047961+pvogt09@users.noreply.github.com)
+[Reid Price](mailto:rprice@aviatrix.com)
+[Simon Egersand](mailto:s.egersand@gmail.com)
+[Tom Riat](mailto:tom@riat.dev)
+[Tony Chia](mailto:tchia04@gmail.com)
+[Viktor Szépe](mailto:viktor@szepe.net)
