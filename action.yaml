@@ -1,4 +1,4 @@
-name: "ShellCheck multiarch"
+name: "ShellCheck MultiArch"
 author: "bwhitehead0 <whitehead.brandon@gmail.com>"
 description: "GitHub action for ShellCheck with ARM64 Linux support."
 inputs:
