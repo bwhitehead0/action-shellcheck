@@ -2,6 +2,8 @@
 
 _GitHub action for [ShellCheck](https://www.shellcheck.net/)._
 
+This is a fork of [ludeeus/action-shellcheck](https://github.com/ludeeus/action-shellcheck), providing support for ARM64 Linux runners.
+
 ## Example
 
 ```yaml
@@ -20,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run ShellCheck
-        uses: ludeeus/action-shellcheck@master
+        uses: bwhitehead0/action-shellcheck@master
 ```
 
 ## ShellCheck options
@@ -37,7 +39,7 @@ example:
 ```yaml
     ...
     - name: Run ShellCheck
-      uses: ludeeus/action-shellcheck@master
+      uses: bwhitehead0/action-shellcheck@master
       env:
         SHELLCHECK_OPTS: -e SC2059 -e SC2034 -e SC1090
 ```
@@ -61,7 +63,7 @@ example:
 ```yaml
     ...
     - name: Run ShellCheck
-      uses: ludeeus/action-shellcheck@master
+      uses: bwhitehead0/action-shellcheck@master
       with:
         ignore_paths: >-
           ignoreme
@@ -78,7 +80,7 @@ example:
 ```yaml
     ...
     - name: Run ShellCheck
-      uses: ludeeus/action-shellcheck@master
+      uses: bwhitehead0/action-shellcheck@master
       with:
         ignore_paths: ./sample/directory/with/files/ignorable.sh **/ignoreme/test.sh
 ```
@@ -94,7 +96,7 @@ example:
 ```yaml
     ...
     - name: Run ShellCheck
-      uses: ludeeus/action-shellcheck@master
+      uses: bwhitehead0/action-shellcheck@master
       with:
         severity: error
 ```
@@ -107,7 +109,7 @@ all files at once:
 ```yaml
     ...
     - name: Run ShellCheck
-      uses: ludeeus/action-shellcheck@master
+      uses: bwhitehead0/action-shellcheck@master
       with:
         check_together: 'yes'
 ```
@@ -123,7 +125,7 @@ one of them, you can use the following configuration:
 ```yaml
    ...
    - name: Run ShellCheck
-     uses: ludeeus/action-shellcheck@master
+     uses: bwhitehead0/action-shellcheck@master
      with:
        scandir: './scripts'
 ```
@@ -135,7 +137,7 @@ If you need to scan for unusual files, you can use the `additional_files` key.
 ```yaml
    ...
    - name: Run ShellCheck
-     uses: ludeeus/action-shellcheck@master
+     uses: bwhitehead0/action-shellcheck@master
      with:
        additional_files: 'run finish'
 ```
@@ -150,7 +152,7 @@ Shellcheck can print output in these formats: `checkstyle`, `diff`, `gcc`, `json
 ```yaml
    ...
    - name: Run ShellCheck
-     uses: ludeeus/action-shellcheck@master
+     uses: bwhitehead0/action-shellcheck@master
      with:
        format: tty
 ```
@@ -162,7 +164,7 @@ If running the latest stable version of Shellcheck is not to your liking, you ca
 ```yaml
    ...
    - name: Run ShellCheck
-     uses: ludeeus/action-shellcheck@master
+     uses: bwhitehead0/action-shellcheck@master
      with:
        version: v0.9.0
 ```

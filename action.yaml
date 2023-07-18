@@ -1,6 +1,6 @@
 name: "ShellCheck"
-author: "Ludeeus <hi@ludeeus.dev>"
-description: "GitHub action for ShellCheck."
+author: "bwhitehead0 <whitehead.brandon@gmail.com>"
+description: "GitHub action for ShellCheck with ARM64 support."
 inputs:
   additional_files:
     description: "A space separated list of additional filename to check"

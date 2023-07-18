@@ -1,4 +1,4 @@
 {
-	"name": "ludeeus/action-shellcheck",
+	"name": "bwhitehead0/action-shellcheck",
 	"image": "mcr.microsoft.com/devcontainers/base:bullseye"
 }
